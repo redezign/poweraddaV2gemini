@@ -1,0 +1,6 @@
+{
+  "name": "PowerAdda",
+  "description": "Mumbai's trusted destination for solar energy, automotive & inverter batteries, energy storage systems, and wind energy solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
