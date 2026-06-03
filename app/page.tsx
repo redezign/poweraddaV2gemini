@@ -539,7 +539,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-         </section>
 
       {/* SOCIAL PROOF */}
       <section className="bg-white border-t border-slate-100 py-16 px-4 sm:px-6 lg:px-8">
