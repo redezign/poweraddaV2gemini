@@ -131,7 +131,6 @@ export default function Footer() {
   </p>
 </div>
 
-          </div>
           <div className="flex items-center space-x-4">
             {legalLinks.map((link) => (
               <Link key={link.href} href={link.href} className="text-slate-400 hover:text-emerald-400 transition-colors">
