@@ -100,7 +100,7 @@ export default function ContactPage() {
               Direct Channels & Offices
             </h2>
             <p className="text-slate-500 text-xs font-light leading-relaxed">
-              We coordinate technical designs and hardware distribution across Mumbai, Thane, Ratnagiri, Pune, and India-wide centers. Contact our BKC office directly.
+              We coordinate technical designs and hardware distribution across Mumbai, Thane, Ratnagiri, Pune, and India-wide centers. Contact our Andheri West office directly.
             </p>
           </div>
 
@@ -140,7 +140,7 @@ export default function ContactPage() {
             <div className="flex items-start space-x-3">
               <MapPin size={16} className="text-emerald-500 shrink-0 mt-0.5" />
               <div>
-                <span className="block font-bold text-slate-800">Bandra Kurla Desk (HQ)</span>
+                <span className="block font-bold text-slate-800">Andheri West (HQ)</span>
                 <span className="block text-slate-500 font-light mt-0.5 max-w-xs">
                   Nr. Vicino Mall, New Link Road, Oshiwara, Andheri West, Mumbai, Maharashtra 400102
                 </span>
