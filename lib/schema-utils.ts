@@ -35,7 +35,7 @@ export function getLocalBusinessSchema() {
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Near Vicino Mall, Andheri West",
+      "streetAddress": "Near Vicino Mall, Oshiwara, Andheri West",
       "addressLocality": "Mumbai",
       "addressRegion": "Maharashtra",
       "postalCode": "400102",
