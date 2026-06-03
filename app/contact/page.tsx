@@ -142,7 +142,7 @@ export default function ContactPage() {
               <div>
                 <span className="block font-bold text-slate-800">Bandra Kurla Desk (HQ)</span>
                 <span className="block text-slate-500 font-light mt-0.5 max-w-xs">
-                  Naman Centre, G Block, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051
+                  Nr. Vicino Mall, New Link Road, Oshiwara, Andheri West, Mumbai, Maharashtra 400102
                 </span>
               </div>
             </div>
