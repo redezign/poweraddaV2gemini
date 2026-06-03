@@ -39,8 +39,8 @@ export default function Header() {
               <span className="text-xl font-sans font-extrabold tracking-tight text-slate-900 group-hover:text-emerald-600 transition-colors">
                 Power<span className="text-emerald-600 group-hover:text-slate-900 transition-colors">Adda</span>
               </span>
-              <span className="block text-[8px] font-mono tracking-wider text-slate-400 font-bold uppercase">
-                Reliable Energy. Sustainable Future.
+              <span className="block text-[8px] font-mono tracking-wider text-slate-500 font-bold uppercase">
+                Powering Homes, Mobility & Sustainable Future.
               </span>
             </div>
           </Link>
