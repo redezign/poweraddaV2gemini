@@ -9,7 +9,7 @@ export default function WhatsAppButton() {
 
   return (
     <a
-      href={`https://wa.me/${phoneNumber}?text=Hi%20PowerAdda,%20I'm%20interested%20in%20obtaining%20renewable%20energy%20and%20power%20backup%20solutions.`}
+      href={`https://wa.me/${phoneNumber}?text=Hi%20PowerAdda!%20I%20need%20help%20with%20a%20battery%2C%20solar%2C%20or%20inverter%20solution.%20Can%20you%20assist%3F`}
       target="_blank"
       rel="noopener noreferrer"
       id="whatsapp-floating-trigger"
