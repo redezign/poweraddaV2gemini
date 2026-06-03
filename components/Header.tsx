@@ -181,13 +181,7 @@ export default function Header() {
           </div>
 
           <div className="pt-2">
-            <a
-              href="/api/export-project"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block w-full text-center bg-blue-50 border border-blue-100 text-blue-700 font-sans font-bold text-xs py-2.5 rounded-lg mb-2"
-            >
-              📥 Download Project Source ZIP
-            </a>
+           
           </div>
 
           <div className="grid grid-cols-2 gap-2">
