@@ -131,8 +131,6 @@ export default function Footer() {
       PowerAdda is an independent consultant and system integration network. Standard energy performance, solar savings estimates, and battery payback lifespans depend on site conditions, regional weather patterns, and discom billing structures.
     </p>
   </div>  
-</div>
-
           <div className="flex items-center space-x-4">
             {legalLinks.map((link) => (
               <Link key={link.href} href={link.href} className="text-slate-400 hover:text-emerald-400 transition-colors">
