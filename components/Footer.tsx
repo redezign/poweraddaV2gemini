@@ -120,7 +120,6 @@ export default function Footer() {
       <div className="bg-slate-950 text-slate-500 text-xs py-6 border-t border-slate-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center  
            <div className="space-y-1 text-center md:text-left">
-            <div className="space-y-1 text-center md:text-left">
             <p className="text-slate-400">
       &copy; {currentYear} PowerAdda Energy Solutions
          </p>
