@@ -120,12 +120,17 @@ export default function Footer() {
       <div className="bg-slate-950 text-slate-500 text-xs py-6 border-t border-slate-800/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="space-y-1 text-center md:text-left">
-            <p className="text-slate-400">
-              &copy; {currentYear} PowerAdda Corp. All Rights Reserved. Mumbai, Maharashtra, India.
-            </p>
-            <p className="text-[10px] text-slate-500 font-light max-w-xl">
-              PowerAdda is an independent consultant and system integration network. Standard energy performance, solar savings estimates, and battery payback lifespans depend on site conditions, regional weather patterns, and discom billing structures.
-            </p>
+          <div className="space-y-1 text-center md:text-left">
+  <p className="text-slate-400">
+    &copy; {currentYear} PowerAdda Energy Solutions
+  </p>
+  <p className="text-slate-500 text-[11px]">
+    Automotive &bull; Inverter &bull; Solar &bull; Wind &bull; Energy Storage Systems
+  </p>
+  <p className="text-[10px] text-slate-500 font-light max-w-xl">
+    PowerAdda is an independent consultant and system integration network. Standard energy performance, solar savings estimates, and battery payback lifespans depend on site conditions, regional weather patterns, and discom billing structures.
+  </p>
+</div>  
           </div>
           <div className="flex items-center space-x-4">
             {legalLinks.map((link) => (
