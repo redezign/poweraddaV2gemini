@@ -4,7 +4,7 @@ import React from "react";
 import { MessageSquareCode } from "lucide-react";
 
 export default function WhatsAppButton() {
-  const num = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+918655559777";
+  const num = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918655559777";
   const phoneNumber = num.replace(/[^0-9+]/g, "");
 
   return (
