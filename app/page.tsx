@@ -102,7 +102,7 @@ export default function HomePage() {
     },
     {
       title: "20kWh Modular Lithium ESS Deployment",
-      location: "Bandra East, Mumbai",
+      location: "Andheri West, Mumbai",
       type: "High-density commercial battery backup",
       desc: "Seamless UPS-grade lithium backup replacing an old, polluting 35kVA diesel generator set for a corporate corporate bank.",
       image: "https://picsum.photos/seed/projectstorage/600/400"
