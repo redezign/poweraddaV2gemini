@@ -260,7 +260,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-xs font-sans font-bold text-slate-800 uppercase tracking-wider">Mumbai & Pan-India</h3>
               <p className="text-xs text-slate-500 mt-1 font-light leading-relaxed">
-                B BKC corporate desk combined with broad localized supply centers and support channels nationwide.
+                Andheri West Corporate Desk combined with broad localized supply centers and support channels nationwide.
               </p>
             </div>
           </div>
