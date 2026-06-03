@@ -14,7 +14,7 @@ export function getOrganizationSchema() {
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+919999999999",
+      "telephone": process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+918655559777",
       "contactType": "customer service",
       "areaServed": "IN",
       "availableLanguage": ["en", "hi"]
@@ -31,20 +31,20 @@ export function getLocalBusinessSchema() {
     "image": [`${siteUrl}/images/hero-solar.jpg`],
     "@id": `${siteUrl}/#localbusiness`,
     "url": siteUrl,
-    "telephone": process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+919999999999",
+    "telephone": process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+918655559777",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Naman Centre, G Block, Bandra Kurla Complex, Bandra East",
+      "streetAddress": "Near Vicino Mall, Andheri West",
       "addressLocality": "Mumbai",
       "addressRegion": "Maharashtra",
-      "postalCode": "400051",
+      "postalCode": "400102",
       "addressCountry": "IN"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 19.0596,
-      "longitude": 72.8631
+      "latitude": 19.151571,
+      "longitude": 72.834216
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
