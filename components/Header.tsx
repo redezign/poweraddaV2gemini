@@ -106,13 +106,7 @@ export default function Header() {
 
           {/* DESKTOP CTA */}
           <div className="hidden lg:flex items-center space-x-2">
-            <a
-              href="/api/export-project"
-              className="inline-flex items-center justify-center bg-blue-50 border border-blue-100 text-blue-700 hover:bg-blue-100 font-sans font-bold text-[10px] uppercase tracking-wider py-2.5 px-3 rounded-lg transition-all"
-              title="Click 'Open in New Tab' at top right of preview screen first, as browsers block downloads in iframes"
-            >
-              📥 Download ZIP
-            </a>
+           
             <Link
               href="/request-quote"
               className="inline-flex items-center justify-center bg-slate-900 border border-slate-900 text-white hover:bg-slate-800 font-sans font-bold text-[10px] uppercase tracking-wider py-2.5 px-3 rounded-lg transition-all shadow-sm"
