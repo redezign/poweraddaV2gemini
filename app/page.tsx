@@ -539,7 +539,120 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+         </section>
 
+      {/* SOCIAL PROOF */}
+      <section className="bg-white border-t border-slate-100 py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto space-y-12">
+
+          {/* Trust Badges */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            {[
+              { value: "2,500+", label: "Batteries Installed", icon: "⚡" },
+              { value: "4.6 ★", label: "Customer Rating", icon: "⭐" },
+              { value: "Since 2024", label: "Serving Mumbai", icon: "📍" },
+              { value: "3 Zones", label: "Mumbai · Thane · Navi Mumbai", icon: "🗺️" },
+            ].map((stat) => (
+              <div key={stat.label} className="p-5 rounded-2xl bg-slate-50 border border-slate-100">
+                <div className="text-2xl mb-2">{stat.icon}</div>
+                <div className="text-2xl font-display font-extrabold text-slate-900">{stat.value}</div>
+                <div className="text-xs text-slate-500 mt-1 font-light">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+
+          {/* Section Header */}
+          <div className="text-center space-y-2">
+            <span className="text-xs font-mono uppercase tracking-wider text-emerald-600 font-bold">
+              What Customers Say
+            </span>
+            <h2 className="text-2xl md:text-3xl font-display font-extrabold text-slate-900">
+              Trusted across Mumbai
+            </h2>
+            <p className="text-slate-500 text-sm font-light max-w-lg mx-auto">
+              Real feedback from homeowners and businesses we've served across Western, Central, and Navi Mumbai.
+            </p>
+          </div>
+
+          {/* Review Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                name: "Rahul M.",
+                location: "Andheri West",
+                service: "Car Battery",
+                review: "Battery replaced at my doorstep in under 30 minutes. Genuine Amaron with proper invoice and warranty card. Team was professional and on time. Will definitely call again.",
+              },
+              {
+                name: "Sneha P.",
+                location: "Thane West",
+                service: "Inverter Battery",
+                review: "Got my inverter battery replaced same day. They checked the existing setup, recommended the right capacity, and installed it cleanly. No upselling, honest pricing.",
+              },
+              {
+                name: "Arjun K.",
+                location: "Navi Mumbai",
+                service: "Solar Energy",
+                review: "Very knowledgeable team. They explained the net metering process clearly and helped with the MSEDCL paperwork. System has been running smooth for months now.",
+              },
+              {
+                name: "Meera D.",
+                location: "Bandra",
+                service: "Bike Battery",
+                review: "Quick, affordable, and hassle-free. Technician came to my building, replaced the battery in 20 minutes. Good genuine product with warranty. Highly recommend.",
+              },
+              {
+                name: "Suresh N.",
+                location: "Powai",
+                service: "Car Battery",
+                review: "Called at 10am, technician arrived by noon. Old battery picked up, new one installed. Transparent pricing — exactly what was quoted, nothing extra. Excellent service.",
+              },
+              {
+                name: "Fatima R.",
+                location: "Kurla",
+                service: "Inverter Battery",
+                review: "Finally found a reliable battery service in Mumbai. The team was courteous, explained everything before starting work, and cleaned up after. Very happy with the experience.",
+              },
+            ].map((review) => (
+              <div
+                key={review.name}
+                className="p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-200 hover:shadow-md transition-all duration-200 space-y-4"
+              >
+                {/* Stars */}
+                <div className="flex gap-0.5">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} size={14} className="text-amber-400 fill-amber-400" />
+                  ))}
+                </div>
+
+                {/* Review text */}
+                <p className="text-sm text-slate-600 leading-relaxed font-light">
+                  "{review.review}"
+                </p>
+
+                {/* Reviewer */}
+                <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
+                  <div>
+                    <p className="text-sm font-sans font-bold text-slate-800">{review.name}</p>
+                    <p className="text-xs text-slate-400">{review.location}</p>
+                  </div>
+                  <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-600 bg-emerald-50 border border-emerald-100 px-2 py-1 rounded-full">
+                    {review.service}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Bottom note */}
+          <p className="text-center text-xs text-slate-400 font-light">
+            ⭐ Reviews collected from WhatsApp, Google, and direct customer feedback.
+          </p>
+
+        </div>
+      </section>
+
+      {/* LEAD CAPTURE SYSTEM */}
       {/* LEAD CAPTURE SYSTEM */}
       <section id="contact-form-section" className="bg-slate-50 border-t border-slate-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
