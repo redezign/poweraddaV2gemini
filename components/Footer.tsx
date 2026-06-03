@@ -48,15 +48,15 @@ export default function Footer() {
             <div className="space-y-2 pt-2 text-xs font-medium">
               <div className="flex items-center space-x-2 text-slate-400">
                 <Building2 size={14} className="text-emerald-500 shrink-0" />
-                <span>Corp HQ: Bandra Kurla Complex (BKC), Mumbai</span>
+                <span>Corp HQ: Oshiwara, Andheri West, Mumbai</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-400">
                 <MapPin size={14} className="text-emerald-500 shrink-0" />
-                <span>Bhiwandi & Pan-India Dispatch Hubs</span>
+                <span>Bhiwandi & Andheri Dispatch Hubs</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-400">
                 <Phone size={14} className="text-emerald-500 shrink-0" />
-                <span>Support: {process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+91 99999 99999"}</span>
+                <span>Support: {process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+91 8655559777"}</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-400">
                 <Mail size={14} className="text-emerald-500 shrink-0" />
@@ -106,7 +106,7 @@ export default function Footer() {
               We provide active engineering and vendor deliveries in:
             </p>
             <div className="flex flex-wrap gap-1 text-[10px] font-mono">
-              {["Mumbai", "Thane", "Navi Mumbai", "Pune", "Nashik", "Nagpur", "Delhi NCR", "Bengaluru", "Hyderabad", "Chennai"].map((city) => (
+              {["Mumbai", "Thane", "Navi Mumbai", "Pune", "Nashik", "Nagpur"].map((city) => (
                 <span key={city} className="bg-slate-800 text-slate-300 px-2 py-0.5 rounded border border-slate-700/60">
                   {city}
                 </span>
