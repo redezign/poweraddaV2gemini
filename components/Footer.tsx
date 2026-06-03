@@ -48,7 +48,7 @@ export default function Footer() {
             <div className="space-y-2 pt-2 text-xs font-medium">
               <div className="flex items-center space-x-2 text-slate-400">
                 <Building2 size={14} className="text-emerald-500 shrink-0" />
-                <span>Corp HQ: Nr. Vicino Mall, Oshiwara, Andheri West, Mumbai</span>
+                <span>Corp HQ: Bandra Kurla Complex (BKC), Mumbai</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-400">
                 <MapPin size={14} className="text-emerald-500 shrink-0" />
@@ -56,7 +56,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-slate-400">
                 <Phone size={14} className="text-emerald-500 shrink-0" />
-                <span>Support: {process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+918655559777"}</span>
+                <span>Support: {process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+91 99999 99999"}</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-400">
                 <Mail size={14} className="text-emerald-500 shrink-0" />
@@ -106,7 +106,7 @@ export default function Footer() {
               We provide active engineering and vendor deliveries in:
             </p>
             <div className="flex flex-wrap gap-1 text-[10px] font-mono">
-              {["Mumbai", "Thane", "Navi Mumbai", "Pune", "Nashik", "Nagpur"].map((city) => (
+              {["Mumbai", "Thane", "Navi Mumbai", "Pune", "Nashik", "Nagpur", "Delhi NCR", "Bengaluru", "Hyderabad", "Chennai"].map((city) => (
                 <span key={city} className="bg-slate-800 text-slate-300 px-2 py-0.5 rounded border border-slate-700/60">
                   {city}
                 </span>
@@ -118,21 +118,18 @@ export default function Footer() {
 
       {/* LOWER CONTAINER */}
       <div className="bg-slate-950 text-slate-500 text-xs py-6 border-t border-slate-800/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center  
-           <div className="space-y-1 text-center md:text-left">
-            <div className="space-y-1 text-center md:text-left">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="space-y-1 text-center md:text-left">
             <p className="text-slate-400">
-      &copy; {currentYear} PowerAdda Energy Solutions
-         </p>
+              &copy; {currentYear} PowerAdda Energy Systems. All Rights Reserved. Mumbai, Maharashtra, India.
+               </p>
          <p className="text-slate-500 text-[11px]">
             Automotive &bull; Inverter &bull; Solar &bull; Wind &bull; Energy Storage Systems
-          </p>
-    <p className="text-[10px] text-slate-500 font-light max-w-xl">
-      PowerAdda is an independent consultant and system integration network. Standard energy performance, solar savings estimates, and battery payback lifespans depend on site conditions, regional weather patterns, and discom billing structures.
-    </p>
-  </div>  
-        </div>  
-      </div>  
+            </p>
+            <p className="text-[10px] text-slate-500 font-light max-w-xl">
+              PowerAdda is an independent consultant and system integration network. Standard energy performance, solar savings estimates, and battery payback lifespans depend on site conditions, regional weather patterns, and discom billing structures.
+            </p>
+          </div>
           <div className="flex items-center space-x-4">
             {legalLinks.map((link) => (
               <Link key={link.href} href={link.href} className="text-slate-400 hover:text-emerald-400 transition-colors">
