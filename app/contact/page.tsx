@@ -15,7 +15,7 @@ export default function ContactPage() {
       title: "WhatsApp Channel Support",
       value: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+91 99999 99999",
       desc: "Live immediate technical chat coordination with on-call system engineers.",
-      href: `https://wa.me/${(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+919999999999").replace(/[^0-9+]/g, "")}?text=Hi%20PowerAdda,%20I'm%20interested%20in%20obtaining%20renewable%20energy%20and%20power%20backup%20solutions.`,
+      href: `https://wa.me/${(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+918655559777").replace(/[^0-9+]/g, "")}?text=Hi%20PowerAdda!%20I%20need%20help%20with%20a%20battery%2C%20solar%2C%20or%20inverter%20solution.%20Can%20you%20assist%3F`,
       label: "Open WhatsApp Chat",
       color: "border-emerald-100 hover:border-emerald-300 text-emerald-700 bg-emerald-50/50"
     },
