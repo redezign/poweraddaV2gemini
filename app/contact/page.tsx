@@ -13,7 +13,7 @@ export default function ContactPage() {
   const contactOptions = [
     {
       title: "WhatsApp Channel Support",
-      value: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+91 99999 99999",
+      value: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+91 8655559777",
       desc: "Live immediate technical chat coordination with on-call system engineers.",
       href: `https://wa.me/${(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+918655559777").replace(/[^0-9+]/g, "")}?text=Hi%20PowerAdda!%20I%20need%20help%20with%20a%20battery%2C%20solar%2C%20or%20inverter%20solution.%20Can%20you%20assist%3F`,
       label: "Open WhatsApp Chat",
