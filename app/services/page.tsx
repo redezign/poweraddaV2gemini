@@ -37,7 +37,7 @@ export default function ServicesPage() {
         "Car & SUV replacement batteries",
         "Heavy commercial truck batteries",
         "Expert on-site battery diagnostics",
-        "Fast BKC delivery and installation"
+        "Fast Andheri West delivery and installation"
       ],
       image: "https://picsum.photos/seed/autolanding/500/350"
     },
