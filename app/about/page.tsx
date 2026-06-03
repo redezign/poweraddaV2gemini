@@ -94,7 +94,7 @@ export default function AboutPage() {
             <div className="space-y-1">
               <span className="text-xs uppercase font-mono tracking-wider text-slate-400 font-bold">Our Reach</span>
               <p className="text-xs text-slate-600 font-light leading-relaxed">
-                Operating a physical office in BKC, Mumbai, with coordinated logistics networks nationwide.
+                Operating a physical office in Andheri West, Mumbai, with coordinated logistics networks nationwide.
               </p>
             </div>
           </div>
